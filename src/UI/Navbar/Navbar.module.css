@@ -1,0 +1,30 @@
+.navbar {
+  position: relative;
+  z-index: 100;
+  background-color:  #2f2117;
+  text-align: right;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 2px solid #000;
+  width: 100%;
+}
+
+.navbar_item {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #d29369;
+  font-size: 20px;
+  transition: 0.3s all;
+  
+  display: inline;
+  cursor: pointer;
+}
+
+.navbar_item:hover {
+  color: #fbdcc4;
+  font-size: 25px;
+}
+
+.navbar_item:last-child {
+  margin-right: 40px;
+}

@@ -1,0 +1,25 @@
+.dot_list {
+  width: 15%;
+
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dot_item {
+  width: 15px;
+  height: 15px;
+
+  background-color: #d29369;
+  border-radius: 50px;
+}
+
+.dot_item:hover {
+  background-color: #996d4f;
+  cursor: pointer;
+}
+
+.activate {
+  background-color: #2f2117;
+}

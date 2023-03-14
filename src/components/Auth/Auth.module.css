@@ -1,0 +1,33 @@
+.auth {
+  width: 45%;
+  margin: 100px auto;
+}
+
+.auth_title {
+  text-align: center;
+  color: rgb(128, 68, 25);
+}
+
+.auth_foot {
+  width: 73%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.auth_foot_text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.auth_foot_text span {
+  color: chocolate;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.auth_foot_text span:hover {
+  color: rgb(252, 143, 59);
+}

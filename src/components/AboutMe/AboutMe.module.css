@@ -1,0 +1,35 @@
+.about-me {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-me_left {
+  width: 80%;
+}
+
+.left-title {
+  font-family: "Poppins";
+  color: #df6951;
+  font-weight: bold;
+  font-size: 30px;
+  
+  margin-bottom: 10px;
+}
+
+.left-text {
+  font-family: "Volkhov";
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+  width: 650px;
+  color: #5e6282;
+}
+
+.right-img {
+	width: 500px;
+	height: 500px;
+	margin-left: 50px;
+}

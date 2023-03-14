@@ -1,0 +1,33 @@
+.todo_loading,
+.todo_error {
+  text-align: center;
+}
+.todo_error {
+  color: red;
+}
+
+.todo_list {
+  width: 50%;
+  background-size: 100% 100%;
+}
+
+.todo_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.todo_item {
+  font-size: 20px;
+  border: 2px solid #000;
+  padding: 10px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo_empty {
+  text-align: center;
+}
